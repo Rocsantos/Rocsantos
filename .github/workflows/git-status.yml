@@ -17,6 +17,7 @@ jobs:
           token: ${{ secrets.GIT_STATUS }}
 
           user: Rocsantos
+          template: classic
 
           filename: assets/stats.svg
 
@@ -31,6 +32,10 @@ jobs:
 
           # Plugin de linhas de codigo
           plugin_lines: yes
+
+          # Plugin para deixar o calendário de commits isométrico
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
 
           # Puglin de contribuicoes
           # plugin_notable: yes
