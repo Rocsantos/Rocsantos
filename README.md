@@ -22,7 +22,9 @@ Sou Rodrigo, estudante de Engenharia de Software.
 - ⚡ Gostaria de ver meu TCC? [WebTutoria](https://frontend-tan-psi-widf390s11.vercel.app/)
 
 <div align="center">
-  ![Stats 👨🏼‍💻](./assets/stats.svg)
+
+  !["Stats 👨🏼‍💻"](https://raw.githubusercontent.com/Rocsantos/Rocsantos/refs/heads/main/assets/stats.svg)
+
 </div>
 
 ---
