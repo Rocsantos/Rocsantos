@@ -2,8 +2,9 @@ name: GitHub Metrics
 
 on:
   workflow_dispatch:
+  # Atualiza toda segunda-feira 8h da manhã
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 8 * * 1"
 
 jobs:
   metrics:
@@ -35,7 +36,7 @@ jobs:
 
           # Plugin para deixar o calendário de commits isométrico
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
 
           # Puglin de contribuicoes
           # plugin_notable: yes
